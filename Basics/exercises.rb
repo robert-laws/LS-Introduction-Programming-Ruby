@@ -7,7 +7,6 @@
 
 "Harry " + "Henderson"
 
-number = 6284
-number.to_s.split('')
-puts number
+puts 3466 % 1000 % 100 / 10
+
 
