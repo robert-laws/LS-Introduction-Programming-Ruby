@@ -1,8 +1,44 @@
-# Arrays
+# Arrays - exercises
 
-names = %w[bob hal kal jim vin lue sal mel]
-new_names = []
-names.map { |n| new_names.push(n.capitalize) }
-puts new_names
+# 1
+arr = [1, 3, 5, 7, 9, 11]
+number = 3
+number2 = 35
 
-# Map - iterates over an array applying a block & creating a new array with results
+def find_number(num, arr)
+  arr.include?(num)
+end
+
+puts find_number(number, arr)
+puts find_number(number2, arr)
+
+
+# 2
+# returns 1
+# returns [1, 2, 3]
+
+# 3
+arr = [["test", "hello", "world"],["example", "mem"]]
+puts arr.last.first
+arr.flatten!
+puts arr[3]
+
+
+# 4
+# 3, error, 8
+
+
+# 5
+# e, A, nil
+
+
+# 6
+names = ['bob', 'joe', 'susan', 'margaret']
+names[3] = 'jody'
+
+# 7
+numbers = [2, 5, 7, 12, 17, 25]
+new_numbers = numbers.map { |n| n * 2 }
+
+p numbers
+p new_numbers
