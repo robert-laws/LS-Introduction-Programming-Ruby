@@ -1,0 +1,4 @@
+first line of text
+Some more information for the file...
+Learning Ruby today!
+Some more stuff goes here

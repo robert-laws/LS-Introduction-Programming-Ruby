@@ -1,0 +1,29 @@
+{
+    "titles": [
+        {
+            "name": "Big Book",
+            "author": "Bob Cobb",
+            "date": "2004"
+        },
+        {
+            "name": "Items and More",
+            "author": "Hal Hope",
+            "date": "1998"
+        },
+        {
+            "name": "Something Happened",
+            "author": "Kal Kool",
+            "date": "2009"
+        },
+        {
+            "name": "Places to Go",
+            "author": "Jim Jupe",
+            "date": "2015"
+        },
+        {
+            "name": "Musing on Things",
+            "author": "Mel Mope",
+            "date": "1994"
+        }
+    ]
+}
